@@ -30,6 +30,7 @@
               </form>
               @endif
             </div>
+            <div>コメント数{{ $tweet->comments->count() }}</div>
           </div>
           @endforeach
         </div>
